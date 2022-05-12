@@ -1,7 +1,7 @@
 # Ox16. C - Simple Shell
 
 ## Description
-A simple UNIX command interpreter.
+* A simple UNIX command interpreter.
 
 ## Table of contents
 
