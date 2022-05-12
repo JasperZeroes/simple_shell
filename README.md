@@ -13,3 +13,7 @@ Files | Description
 [3-Simple_shell_0.3](./3-Simple_shell_0.3) | Simple_shell_0.2 + handle the PATH.
 [4-Simple_shell_0.4](./4-Simple_shell_0.4) | Simple_shell_0.3 + implement the exit built-in.
 [5-Simple_shell_1.0](./5-Simple_shell_1.0) | Simple_shell_0.4 + implement the env built-in, that prints the current environment.
+
+### Contributors: 
+* Chima Obed, Enyeribe @JasperZeroes.
+* Toluwani Michael, Alese.
