@@ -181,7 +181,8 @@ int do_simple_command(struct node_s *node)
 		return 0;
 	}
 
-	waitpid(child_pid, &stat, 0);
+	int status = 0;
+	waitpid(child_pid, &status, 0);
 	free_argv(argc, argv);
 	
 	return 1;
