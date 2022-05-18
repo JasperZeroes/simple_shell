@@ -16,7 +16,7 @@ void prompt(void)
 	if (first_time)
 	{
 		/*const char *CLEAR_SCREEN_ANSI = "\e[1;H\e[2J";*/
-		const char *fp;
+		char *fp;
 		write(STDOUT_FILENO, fp, 12);
 		first_time = 0;
 	}
