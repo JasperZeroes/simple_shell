@@ -1,23 +1,12 @@
-#include "main.h"
+#include <stdio.h>
+#include "shell.h"
 
-/**
- * prompt- displays '$' as prompt and
- * collects/writes command of user to stdin
- *
- * Return: None
- */
-
-
-void prompt(void)
+void print_prompt1(void)
 {
-	static int first_time = 1;
+	fprintf(stderr, "$ ");
+}
 
-	printf("~$ ");
-	if (first_time)
-	{
-		/*const char *CLEAR_SCREEN_ANSI = "\e[1;H\e[2J";*/
-		char *fp;
-		write(STDOUT_FILENO, fp, 12);
-		first_time = 0;
-	}
+void print_prompt2(void)
+{
+	fprintf(stderr, "> ");
 }
