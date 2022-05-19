@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main- computes a series of numbers and print out the
+ * main - computes a series of numbers and print out the
  * sum and product of the numbers
- * @argc : counts number of args
- * @argv : the array containing the numbers
+ * @argc: counts number of args
+ * @argv: the array containing the numbers
  *
  * Return: Always 0
  */
