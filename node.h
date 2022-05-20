@@ -3,8 +3,8 @@
 
 enum node_type_e
 {
-	NODE_COMMAND,        /* simple command */
-	NODE_VAR      /* variable name (or simply, a word) */
+	NODE_COMMAND,           /* simple command */
+	NODE_VAR,               /* variable name (or simply, a word) */
 };
 
 enum val_type_e
@@ -13,18 +13,18 @@ enum val_type_e
 	VAL_UINT,           /* unsigned int */
 	VAL_SLLONG,         /* signed long long */
 	VAL_ULLONG,         /* unsigned long long */
-	VAL_FLOAT,         /* floating point */
-	VAL_LDOUBLE,       /* long double */
+	VAL_FLOAT,          /* floating point */
+	VAL_LDOUBLE,        /* long double */
 	VAL_CHR,            /* char */
-	VAL_STR           /* str (char pointer) */
+	VAL_STR,            /* str (char pointer) */
 };
 
 union symval_u
 {
 	long               sint;
 	unsigned long      uint;
-	long          sllong;
-	unsigned long ullong;
+	long long          sllong;
+	unsigned long long ullong;
 	double             sfloat;
 	long double        ldouble;
 	char               chr;
