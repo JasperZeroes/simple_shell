@@ -16,4 +16,4 @@ Files | Description
 
 ### Contributors: 
 * Chima Obed, Enyeribe @JasperZeroes.
-* Toluwani Michael, Alese @nvsblmike.
+* Toluwani Michael, Alese.
